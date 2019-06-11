@@ -15,10 +15,11 @@
         <script>
 
           let googleURL = "https://accounts.google.com/o/oauth2/v2/auth";
+          let gitURL = "https://github.com/login/oauth/authorize";
 
           let options = {
-            client_id:'YOUR-GOOGLE-CLIENT-ID',
-            redirect_uri: 'YOUR-SERVER-URL/oauth',
+            client_id:'3b5b1caeda1d0b54de62',
+            redirect_uri: 'http://localhost:3000/oauth',
             scope: 'email openid profile',
             prompt: 'consent',
             response_type: 'code'
@@ -28,9 +29,9 @@
             return `${key}=` + encodeURIComponent(options[key]);
           }).join("&");
 
-          let authURL = `${googleURL}?${QueryString}`;
+          let authURL = `${gitURL}?${QueryString}`;
 
-          $('#oauth').append(`<a href="${authURL}">Login With Google</a>`);
+          $('#oauth').append(`<a href="${authURL}">Login With GitHub</a>`);
 
         </script>
 
