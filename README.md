@@ -6,7 +6,7 @@
 ### Author: Tia Rose, Feliple Delatorre, Chloie Parsons
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/tia-rose-401-advanced-javascript/www-basic-auth/pull/1)
 * [heroku](https://rocky-lake-53437.herokuapp.com/)
 * 
 
@@ -45,4 +45,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![uml](./assets/lab12_UML.JPG)
